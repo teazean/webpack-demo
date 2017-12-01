@@ -1,0 +1,24 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "//": "webpack根绝es6 modules语法来计算以来，这里使用modules:false",
+                "modules": false
+            }
+        ],
+        "stage-2"
+    ],
+    "plugins": [
+        [
+            "transform-runtime",
+            {
+                "//": "这些参数都是一些babel-polyfill相关的东西，具体见http://babeljs.io/docs/usage/polyfill  & https://babeljs.io/docs/plugins/transform-runtime/",
+                "polyfill": false,
+                "regenerator": false,
+                "helpers": false
+            }
+        ]
+    ],
+    "comments": false
+}

@@ -1,0 +1,12 @@
+.vscode
+dist
+.DS_Store
+node_modules
+npm-debug.log
+output
+tmp
+.idea
+*.pyc
+*.swp
+*.swo
+deps.json
